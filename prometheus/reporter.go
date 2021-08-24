@@ -26,9 +26,9 @@ import (
 	"sync"
 	"time"
 
-	prom "github.com/m3db/prometheus_client_golang/prometheus"
-	"github.com/m3db/prometheus_client_golang/prometheus/promhttp"
 	"github.com/pkg/errors"
+	prom "github.com/prometheus/client_golang/prometheus"
+	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/uber-go/tally"
 )
 
